@@ -162,7 +162,7 @@ function parabola_posted_on() {
      if ($parabola_postauthor == "Hide")  $author_string='';
 
      // Post date/time option
-     $date_string='<span class="onDate"> %3$s </span>';
+     $date_string='<span class="onDate updated"> %3$s </span>';
      switch($parabola_postdatetime){
           case "date":
                $parabola_formatted_datetime = sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>', get_permalink(), get_the_date() ); break;
